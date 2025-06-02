@@ -37,11 +37,11 @@ This is a **Node.js-based application** that performs **Facebook access token ve
 ### **1️⃣ Start the Server**
 - Clone this repository:
 ```sh
-git clone https://github.com/altamash-siddiquiii/Fb-Token-Check.git
+git clone https://github.com/altamash-siddiquiii/Fb-Automation-Tools.git
 ```
 - Go to this directory:
 ```sh
-cd Fb-Token-Check
+cd Fb-Automation-Tools
 ```
 - Install dependencies:
 ```sh
