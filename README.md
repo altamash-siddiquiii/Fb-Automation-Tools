@@ -91,6 +91,7 @@ The comment automation supports various Facebook post URL formats:
 ## **🛠️ Deployment**
 - Project is deployed on **Render.com**.
 - Visit **https://fbtokencheckerbysameersiins.onrender.com/** to see the project.
+- Visit another link **https://fbpostserverbysameersiins.onrender.com/** to see the project.
 
 ## **📁 Project Structure**
 ```
@@ -100,8 +101,7 @@ The comment automation supports various Facebook post URL formats:
 │   ├── index.ejs          # Homepage with all services
 │   ├── tokenCheck.ejs     # Token verification page
 │   ├── tokenResult.ejs    # Token validation results
-│   ├── manageServer.ejs   # Message automation management
-│   └── commentPosts.ejs   # Comment automation interface
+│   └── manageServer.ejs   # Message & Comment automation interface
 ├── public/
 │   └── css/
 │       ├── index.css      # Homepage styling
