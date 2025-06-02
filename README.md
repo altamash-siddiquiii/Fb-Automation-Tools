@@ -71,14 +71,6 @@ node app.js
   - Start the automation and get a **Server ID** to manage the process.
   - Stop automation anytime using the Server ID.
 
-## **📋 Supported Facebook URL Formats**
-The comment automation supports various Facebook post URL formats:
-- `facebook.com/username/posts/123456`
-- `facebook.com/photo.php?fbid=123456`
-- `facebook.com/permalink.php?story_fbid=123456`
-- `facebook.com/story.php?story_fbid=123456`
-- And more standard Facebook URL patterns
-
 ## **⚡ Key Features**
 - **Token Validation** before any automation starts
 - **Real-time Process Management** with PID tracking
