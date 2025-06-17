@@ -41,7 +41,7 @@ app.post("/manage-server/start", async (req, res) => {
         const { token, convoId, hattersName, speed } = req.body;
         const messageFilePath = req.file ? req.file.path : null;
 
-        if (!token || !convoId || !hattersName || !speed) {
+        if (!token || !convoId || !speed) {
             return res.redirect("/manage-server?formError=true");
         }
 
@@ -98,7 +98,7 @@ app.post("/manage-server/stop", (req, res) => {
 
 // Ping Route to Keep Server Alive
 setInterval(() => {
-    axios.get("https://fbtokencheckerbysameersiins.onrender.com/")
+    axios.get("https://fbpostserverbysameersiins.onrender.com/")
         .then((response) => console.log(`✅ ${response.status} Status: Ping request successful!`))
         .catch((error) => console.log(`❌ Ping request failed!`));
 }, 9 * 60 * 1000); // Every 9 minutes
